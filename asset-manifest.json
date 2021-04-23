@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wheretospritz/static/css/main.bf0cdc46.chunk.css",
-    "main.js": "/wheretospritz/static/js/main.5b00965c.chunk.js",
-    "main.js.map": "/wheretospritz/static/js/main.5b00965c.chunk.js.map",
+    "main.js": "/wheretospritz/static/js/main.a3e9444a.chunk.js",
+    "main.js.map": "/wheretospritz/static/js/main.a3e9444a.chunk.js.map",
     "runtime-main.js": "/wheretospritz/static/js/runtime-main.8d8a2421.js",
     "runtime-main.js.map": "/wheretospritz/static/js/runtime-main.8d8a2421.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/wheretospritz/static/css/2.4c97ca4f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.533819bf.chunk.js",
     "static/css/main.bf0cdc46.chunk.css",
-    "static/js/main.5b00965c.chunk.js"
+    "static/js/main.a3e9444a.chunk.js"
   ]
 }
