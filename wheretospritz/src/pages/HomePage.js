@@ -7,7 +7,7 @@ import pageStyle from './Pages.module.css'
 function HomePage() {
     return (
         <div className={pageStyle.right}>
-            <Image className={pageStyle.right} src={spritzImage} fluid />
+            <img className={pageStyle.right} src={spritzImage} fluid />
         </div>
     )
 }
