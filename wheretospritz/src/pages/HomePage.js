@@ -6,9 +6,23 @@ import pageStyle from './Pages.module.css'
 
 function HomePage() {
     return (
-        <div className={pageStyle.right}>
-            <img className={pageStyle.right} src={spritzImage} fluid />
+        <div >
+            <div className={pageStyle.right}>
+                <img className={pageStyle.right} src={spritzImage} fluid />
+            </div>
+            <div className={pageStyle.homepage_div}>
+                <h1 className={pageStyle.homepage_h1}>When?</h1>
+                <p className={pageStyle.homepage_p}> Sun 25/04/2021 16:00</p>
+
+                <h1 className={pageStyle.homepage_h1}>Where?</h1>
+                <p className={pageStyle.homepage_p}> Grattacielo </p>
+
+                <h1 className={pageStyle.homepage_h1}>What to bring?</h1>
+                <p className={pageStyle.homepage_p}> Spritz and Food </p>
+
+            </div>
         </div>
+
     )
 }
 
