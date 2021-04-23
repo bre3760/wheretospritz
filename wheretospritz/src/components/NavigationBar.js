@@ -37,6 +37,8 @@ function NavigationBar() {
                 <Switch>
                     <Route exact path='/' component={HomePage} />
                     <Route path="/about" component={About}></Route>
+                    <Route path="/wheretospritz" component={HomePage}></Route>
+
                     <Route render={function () {
                         return <p>Not found</p>
                     }} />
