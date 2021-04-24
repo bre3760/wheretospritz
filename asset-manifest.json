@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/wheretospritz/static/css/main.ee6def3f.chunk.css",
-    "main.js": "/wheretospritz/static/js/main.c4985017.chunk.js",
-    "main.js.map": "/wheretospritz/static/js/main.c4985017.chunk.js.map",
-    "runtime-main.js": "/wheretospritz/static/js/runtime-main.25667baa.js",
-    "runtime-main.js.map": "/wheretospritz/static/js/runtime-main.25667baa.js.map",
+    "main.css": "/wheretospritz/static/css/main.860fa87f.chunk.css",
+    "main.js": "/wheretospritz/static/js/main.9ed31fa9.chunk.js",
+    "main.js.map": "/wheretospritz/static/js/main.9ed31fa9.chunk.js.map",
+    "runtime-main.js": "/wheretospritz/static/js/runtime-main.50e4e925.js",
+    "runtime-main.js.map": "/wheretospritz/static/js/runtime-main.50e4e925.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/wheretospritz/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bdd4dbe1.chunk.js": "/wheretospritz/static/js/2.bdd4dbe1.chunk.js",
-    "static/js/2.bdd4dbe1.chunk.js.map": "/wheretospritz/static/js/2.bdd4dbe1.chunk.js.map",
-    "static/js/3.ad98269d.chunk.js": "/wheretospritz/static/js/3.ad98269d.chunk.js",
-    "static/js/3.ad98269d.chunk.js.map": "/wheretospritz/static/js/3.ad98269d.chunk.js.map",
+    "static/js/2.bfb5b1a4.chunk.js": "/wheretospritz/static/js/2.bfb5b1a4.chunk.js",
+    "static/js/2.bfb5b1a4.chunk.js.map": "/wheretospritz/static/js/2.bfb5b1a4.chunk.js.map",
+    "static/js/3.afd36f1b.chunk.js": "/wheretospritz/static/js/3.afd36f1b.chunk.js",
+    "static/js/3.afd36f1b.chunk.js.map": "/wheretospritz/static/js/3.afd36f1b.chunk.js.map",
     "index.html": "/wheretospritz/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/wheretospritz/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.ee6def3f.chunk.css.map": "/wheretospritz/static/css/main.ee6def3f.chunk.css.map",
-    "static/js/2.bdd4dbe1.chunk.js.LICENSE.txt": "/wheretospritz/static/js/2.bdd4dbe1.chunk.js.LICENSE.txt",
-    "static/media/me.ba7986eb.jpg": "/wheretospritz/static/media/me.ba7986eb.jpg",
+    "static/css/main.860fa87f.chunk.css.map": "/wheretospritz/static/css/main.860fa87f.chunk.css.map",
+    "static/js/2.bfb5b1a4.chunk.js.LICENSE.txt": "/wheretospritz/static/js/2.bfb5b1a4.chunk.js.LICENSE.txt",
+    "static/media/aperol2.d905bab4.png": "/wheretospritz/static/media/aperol2.d905bab4.png",
+    "static/media/calendar.4d584d65.png": "/wheretospritz/static/media/calendar.4d584d65.png",
+    "static/media/chips2.be20c979.jpg": "/wheretospritz/static/media/chips2.be20c979.jpg",
+    "static/media/cups.103f5cdf.png": "/wheretospritz/static/media/cups.103f5cdf.png",
+    "static/media/prosecco.0386ee07.png": "/wheretospritz/static/media/prosecco.0386ee07.png",
+    "static/media/sanpaolo.2bbea1cf.jpg": "/wheretospritz/static/media/sanpaolo.2bbea1cf.jpg",
     "static/media/HeroSection.css": "/wheretospritz/static/media/spritz.315bc77c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.25667baa.js",
+    "static/js/runtime-main.50e4e925.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bdd4dbe1.chunk.js",
-    "static/css/main.ee6def3f.chunk.css",
-    "static/js/main.c4985017.chunk.js"
+    "static/js/2.bfb5b1a4.chunk.js",
+    "static/css/main.860fa87f.chunk.css",
+    "static/js/main.9ed31fa9.chunk.js"
   ]
 }
