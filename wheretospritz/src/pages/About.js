@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Row, Container, Card, Button} from "react-bootstrap";
-import myPicture from '../images/me.jpg'
 import Image from 'react-bootstrap/Image'
 import pageStyle from './Pages.module.css'
 import responsivePageStyle from './ResponsivePage.module.css'
