@@ -1,10 +1,12 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient() */
+/* https://forum.squarespace.com/topic/11369-is-there-any-way-to-make-a-background-color-stretch-out-to-full-width-of-browser/ */
 .body {
-    margin: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    /* background-color: rgb(219, 104, 84); */
     background: linear-gradient(#f4d2b6, #ec652f);
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden; 
 }
 .right {
     float: right;
@@ -41,12 +43,12 @@
 
 /* about image */
 
-.container {
+.containerAbout {
 position: relative;
 width: 50%;
 }
 
-.image {
+.imageAbout {
 opacity: 1;
 display: block;
 width: 50%;
@@ -55,7 +57,7 @@ transition: .5s ease;
 backface-visibility: hidden;
 }
 
-.middle {
+.middleAbout {
 transition: .5s ease;
 opacity: 0;
 position: absolute;
@@ -65,17 +67,28 @@ transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%) */
 }
 
-.container:hover .image {
+.containerAbout:hover .imageAbout{
 opacity: 0.3;
 }
 
-.container:hover .middle {
+.containerAbout:hover .middleAbout {
 opacity: 1;
 }
 
-.text {
+.textAbout {
 background-color: #4CAF50;
 color: white;
 font-size: 16px;
 padding: 16px 32px;
 }
+
+
+/* @media (min-width: 600px) {
+    .body {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(#f4d2b6, #ec652f);
+    }
+}
+ */
