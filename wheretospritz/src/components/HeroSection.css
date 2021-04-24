@@ -5,9 +5,13 @@ video {
     position: fixed;
     z-index: -1;
   }
+  .myBackGround {
+    background: linear-gradient(#f4d2b6, #ec652f);
   
+    }
+
   .hero-container {
-    background: url('../images/spritz.png') center center/cover no-repeat;
+    background:  url('../images/spritz.png') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;

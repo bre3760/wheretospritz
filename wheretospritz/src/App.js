@@ -3,15 +3,13 @@ import { Switch, Route, Link } from 'react-router-dom';
 import About from './pages/About';
 import HomePage from './pages/HomePage';
 import NavigationBar from './components/NavigationBar';
-
-import pageStyle from './pages/Pages.module.css'
-import responsivePageStyle from './pages/ResponsivePage.module.css'
+import './App.css'
 import WhatToBring from './pages/WhatToBring';
 
 
 function App() {
   return (
-    <div className={responsivePageStyle.siteContainer}>
+    <div >
           <NavigationBar></NavigationBar>
         
           <Switch>

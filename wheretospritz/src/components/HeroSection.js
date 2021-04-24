@@ -9,29 +9,24 @@ function HeroSection() {
     const history = useHistory();
 
     return (
+        <div className="myBackGround"> 
         <div className='hero-container'>
-        <h1>ADVENTURE AWAITS</h1>
-        <p>What are you waiting for?</p>
-        <div className='hero-btns'>
-            <Button
-            variant="light"
-            className='btns'
-            buttonStyle='btn--outline'
-            buttonSize='btn--large'
-            
-            onClick={() => history.push('/about')}
-            >
-            LETS GO!
-            </Button>
-            <Button
-            variant="light"
-            className='btns'
-            buttonStyle='btn--primary'
-            buttonSize='btn--large'
-            onClick={() => history.push('/whattobring')}
-            >
-            WHAT TO BRING? 
-            </Button>
+            <h1>ADVENTURE AWAITS</h1>
+            <p>What are you waiting for?</p>
+            <div className='hero-btns'>
+                <Button
+                variant="light"
+                onClick={() => history.push('/about')}
+                >
+                LETS GO!
+                </Button>
+                <Button
+                variant="light"
+                onClick={() => history.push('/whattobring')}
+                >
+                WHAT TO BRING? 
+                </Button>
+            </div>
         </div>
         </div>
     );

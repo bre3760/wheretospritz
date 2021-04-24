@@ -1,45 +1,23 @@
 import React from 'react'
-import { Col, Row, Container, Card, Button} from "react-bootstrap";
+import { Col, Row, Container, Card, Button, CardGroup } from "react-bootstrap";
 import Image from 'react-bootstrap/Image'
-import pageStyle from './Pages.module.css'
-import responsivePageStyle from './ResponsivePage.module.css'
+import './ResponsivePage.css'
 
 import Cards from '../components/Cards'
-import spritzImage from '../images/spritz.png'
+import sanPaoloImage from '../images/sanpaolo.jpg'
+import calendarImage from '../images/calendar.png'
 
 function About() {
     return (
-        <div className={responsivePageStyle.main}>
-            <Container fluid>
-            <Row>
-                <Col >
-                    <Card style={{ width: '100%' }}>
-                    {/* <Card.Img variant="top" src={spritzImage} /> */}
-                    <Card.Body>
-                        <Card.Title>Where?</Card.Title>
-                        <Card.Text>
-                        Grattacielo San Paolo Park
-                        </Card.Text>
-                        {/* <Button variant="primary">Go somewhere</Button> */}
-                    </Card.Body>
-                    </Card>
-                </Col>
-                <Col >
-                    <Card style={{ width: '100%' }}>
-                    {/* <Card.Img variant="top" src={spritzImage} /> */}
-                    <Card.Body>
-                        <Card.Title>When?</Card.Title>
-                        <Card.Text>
-                        Sunday 25/04/2021 15:00
-                        </Card.Text>
-                        {/* <Button variant="primary">Go somewhere</Button> */}
-                    </Card.Body>
-                    </Card>
-                </Col>
-                
-            </Row>
+        <div className="myPagesBackGround">
+            <h1 className="h1Box">Spritz Party</h1>
+            <p className="pBox">
+                Where? Grattacielo San Paolo Park
+            </p>
+            <p className="pBox">
+                When? Sunday 25/04/2021 15:00
+            </p>
             
-            </Container>
         </div>
     )
 }

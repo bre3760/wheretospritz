@@ -1,0 +1,57 @@
+.siteContainer {
+display: flex;
+flex-direction: column;
+background: linear-gradient(#f4d2b6, #ec652f);
+}
+
+.main {
+padding: 1em;
+background: linear-gradient(#f4d2b6, #ec652f);
+width: 100%;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: hidden; 
+}
+
+.myPagesBackGround {
+    background: linear-gradient(#f4d2b6, #ec652f);
+    height: 100vh;
+    }
+
+.divBox {
+border: 1px solid gray;
+padding: 8px;
+}
+
+.h1Box {
+    font-size:8vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.pBox {
+    font-size:2vw;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+.aBox {
+text-decoration: none;
+color: #008CBA;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
